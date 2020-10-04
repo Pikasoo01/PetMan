@@ -54,12 +54,12 @@ rkb_type = *-1
 	
 	
 	;left right
-	lda #$1
+	lda #$7
 	sta $E810
 	
 	ldx #0
 	lda $E812
-	and #$8
+	and #16
 	bne +
 	ldx #1
 +
@@ -69,7 +69,7 @@ rkb_type = *-1
 	sta $E810
 	ldx #0
 	lda $E812
-	and #$8
+	and #16
 	bne +
 	ldx #1
 +
