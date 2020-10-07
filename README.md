@@ -1,4 +1,5 @@
 # PetMan
+![Test Image 1](petman.jpg)
 
 Build using ACME assembler
 
